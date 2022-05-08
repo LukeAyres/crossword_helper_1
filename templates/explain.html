@@ -1,0 +1,18 @@
+{% include 'header.html' %}
+
+<div class="container" style="background-image: url( {{url_for('static', filename='puzzle.jpg') }})">
+    <div id="overlay">
+    <div class="content-container explain_paragraph">
+        <h1>Happy Crosswording :D</h1>
+        <p>
+            Enter letters where they are known and underscores where the letters are unknown
+        </p>
+        <p>
+            e.g. enter "g_o_d" where the second and fourth letters are unknown
+        </p>
+        <a href="/" class="back_link">Go Back</a>
+
+    </div>
+    </div>
+</div>
+{%include 'footer.html'%}

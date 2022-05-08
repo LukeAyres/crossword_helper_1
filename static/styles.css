@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+
+.container {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.content-container {
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 50%;
+}
+
+h1, h2 {
+    margin : 0;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+ /* form styles */
+
+#clue_input {
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    opacity: 45%;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#clue_input:focus {
+    outline: none;
+}
+
+#clue_submit {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px 0;
+    background-color: #e6aa5c;
+    border:none;
+    color: white;
+    border-radius: 5%;
+}
+
+
+/*  ANSWERS STYLES   */
+.answer {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* EXPLANATION BUTTON  */
+#explain {
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+#explain:visited {
+    color:white;
+}
+
+.explain_paragraph {
+    text-align: justify;
+}
+
+#overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.6;
+}
+
+/* BACK BUTTON   */
+.back_link {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.back_link:visited {
+    color: white
+}
+
+
+/*   footer   */
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and  (max-width: 799px) {
+    .content-container {
+        padding-top: 45px;
+    }
+    h1, h2 {
+        padding-bottom: 20px;
+
+    }
+}

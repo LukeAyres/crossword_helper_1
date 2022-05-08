@@ -1,0 +1,15 @@
+{% include 'header.html' %}
+<div class="container" style="background-image: url( {{url_for('static', filename='crossword_img.jpg') }})">
+    <div class="content-container">
+        <h1>Enter Your Word Below</h1>
+
+        <form action="/answers" method="post">
+          <input type="text" name="clue" id="clue_input" autocomplete="off"><br>
+          <input type="submit" id="clue_submit" value="Enter Word">
+        </form>
+        <div>
+        <a href="/explain" id ="explain">See an explanation</a>
+        </div>
+    </div>
+
+{% include 'footer.html' %}

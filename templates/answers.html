@@ -1,0 +1,17 @@
+{% include 'header.html' %}
+
+<div class="container" style="background-image: url( {{url_for('static', filename='book.jpg') }})">
+    <div class="content-container">
+    <h2>{{msg}}</h2>
+    {% for clue in clues: %}
+        {% if clues[-1] == clue: %}
+            <p class="answer">{{clue}}.</p>
+        {% else: %}
+            <p class="answer">{{clue}},</p>
+        {% endif %}
+    {% endfor %}
+    <a href="/" class="back_link">Go Back</a>
+    </div>
+</div>
+
+{% include 'footer.html' %}

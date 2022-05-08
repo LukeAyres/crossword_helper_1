@@ -1,0 +1,9 @@
+# DONE!!! add separate header and footer files
+# DONE !! import crossword functionality
+# DONE !! add a go back button
+# DONE!! add an explanation on the main page
+# DONE!! deal with incorrect input
+# DONE!! give a message when the user has too many guesses
+# improve quality of bg images
+# add a footer with my name and details
+# improve responsiveness on mobiles
